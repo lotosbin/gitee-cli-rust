@@ -1,0 +1,20 @@
+[package]
+name = "gitee"
+version = "0.1.2"
+edition = "2021"
+authors = ["lotosbin <lotosbin@gmail.com>"]
+description = "A command line tool for Gitee."
+documentation = "https://github.com/lotosbin/gitee-cli-rust"
+homepage = "https://github.com/lotosbin/gitee-cli-rust"
+repository = "https://github.com/lotosbin/gitee-cli-rust"
+readme = "README.md"
+license-file = "LICENSE"
+keywords = ["gitee", "cli", "rust"]
+categories = ["command-line-utilities" ]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.4", features = ["derive"] }
+git2 = "0.18.0"
+webbrowser = "0.8.11"
